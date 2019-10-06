@@ -21,7 +21,7 @@ m_fraser3@u.pacific.edu
 The player program (identical between `PlayerX.py` and `PlayerO.py`) is
 integrated into the `Tournament.py` functionality and requires no extra setup to
 be run beyond running `Tournament.py`.  The `next_move()` function is the
-interface function to be run, and provides a valid next move according to the
+interface function to be run and provides a valid next move according to the
 project instructions provided in the **Project 2 - Adversarial Search** PDF.*
 The **Args** section below is merely a reflection of the arguments provided in
 `Tournament.py`.  The `load_player()` function is unimplemented in favor of
