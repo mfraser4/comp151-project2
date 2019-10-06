@@ -1,4 +1,4 @@
-# COMP 151 Project 1
+# COMP 151 Project 2
 
 Mark Fraser
 
@@ -6,10 +6,10 @@ m_fraser3@u.pacific.edu
 
 # Table of Contents
 
-1. [COMP 151 Project 1](#comp-151-project-1)
+1. [COMP 151 Project 2](#comp-151-project-2)
 2. [Table of Contents](#table-of-contents)
 3. [Usage](#usage)
-    1. [Args for next_move()](#args-for-next-move)
+    1. [Args](#args)
         1. [board](#board)
         2. [player](#player)
         3. [lookup_table](#lookup-table)
@@ -18,18 +18,23 @@ m_fraser3@u.pacific.edu
 
 # Usage
 
-The program (identical between `PlayerX.py` and `PlayerO.py`) is integrated into the `Tournament.py` functionality.  The
-`next_move()` function is the interface function to be run, and is run according
-to the project instructions provided in the **Project 2 - Adversarial Search**
-PDF.*  The **Args** section below is merely a reflection of the arguments
-provided in `Tournament.py`.  The `load_player()` function is unimplemented in
-favor of making the `next_move()` decision at runtime.
+The player program (identical between `PlayerX.py` and `PlayerO.py`) is
+integrated into the `Tournament.py` functionality and requires no extra setup to
+be run beyond running `Tournament.py`.  The `next_move()` function is the
+interface function to be run, and provides a valid next move according to the
+project instructions provided in the **Project 2 - Adversarial Search** PDF.*
+The **Args** section below is merely a reflection of the arguments provided in
+`Tournament.py`.  The `load_player()` function is unimplemented in favor of
+performing the adversarial search at runtime.
 
 *NOTE: `next_move()` assumes that the input values are correct, as it has been
 built to be run by `Tournament.py`.  If this function were to be made an
 independent interface, argument validation would be necessary.
 
-## Args for `next_move()`
+## Args
+
+The arguments below correspond to the fields in `next_move()`, which is the only
+function that should be called from an external file.
 
 ### board
 
